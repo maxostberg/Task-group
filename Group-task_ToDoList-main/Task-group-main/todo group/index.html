@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1f43d78f4d.js" crossorigin="anonymous"></script>
+    <title>Todo Group</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="card">
+            <div class="card-top">
+                <form class="search-input">
+                    <input type="text" id="filter-input" placeholder=" &#xf002 Search"
+                        style="font-family: fontawesome;">
+                </form>
+                <div class="datum">
+                    <h2 class="date"></h2>
+                    <div class="yeardiv">
+                        <p id="month"></p>
+                        <p class="year"></p>
+                    </div>
+                    <p class="day"></p>
+                </div>
+            </div>
+            <div class="task-container">
+                <ul class="task-list">
+                    <!-- <li class="task-item">
+                        <div class="task-item-content">
+                            <h3 class="task-title">Meeting</h3>
+                            <p class="task-text">Room 408, east 2 layer</p>
+                        </div>
+                        <figure class="check-icon">
+                            <i class="fas fa-check"></i>
+                        </figure>
+                    </li> -->
+                </ul>
+                <div class="btn-container">
+                    <button class="add-btn">
+                        <p>+</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="submit-form-popup">
+        <form class="submit-form">
+            <i class="far fa-times-circle"></i>
+            <input type="text" id="title-submit" class="input-box" placeholder="Write your title..">
+            <input type="text" id="text-submit" placeholder="Write your task..">
+            <div class="submit-btn-div">
+                <button type="submit" class="submit-btn">Save</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
